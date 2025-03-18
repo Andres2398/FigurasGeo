@@ -23,8 +23,6 @@ public class Circulo {
 	
 	public double getArea(){
 		
-		radio = getRadio();
-		
 		double area = 3.14*Math.pow(radio, 2);
 		return area;
 		
