@@ -3,8 +3,8 @@ package figurasGeo;
 public class Punto {
 	
 	// atributos
-	float x;
-	float y;
+	private float x;
+	private float y;
 	
 	//comportamiento
 	

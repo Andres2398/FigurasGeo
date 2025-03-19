@@ -25,11 +25,19 @@ public class Cilindro {
 		
 		double radio = base.getRadio();
 		double volumen= 3.14*Math.pow(radio, 2)*altura;
-		
-		
 		return volumen;
 		
 	}
+	public double getAreaBase() {
+		
+		double radio = base.getRadio();
+		double area = base.getRadio();
+		double volumen= 3.14*Math.pow(radio, 2);
+		return area;
+		
+		
+	}
+	
 	
 	
 }

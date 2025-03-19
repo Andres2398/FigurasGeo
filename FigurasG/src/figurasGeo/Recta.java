@@ -3,7 +3,7 @@ package figurasGeo;
 public class Recta {
 	
 	private Punto puntoA;
-	private Punto PuntoB;
+	private Punto puntoB;
 	
 	
 	
@@ -15,18 +15,18 @@ public class Recta {
 		this.puntoA = puntoA;
 	}
 	public Punto getPuntoB() {
-		return PuntoB;
+		return puntoB;
 	}
 	public void setPuntoB(Punto puntoB) {
-		PuntoB = puntoB;
+		this.puntoB = puntoB;
 	}
 	
 	public double getSegmento() {
 		
 		float cordenadaYPuntoA = puntoA.getY();
 		float cordenadaXPuntoA = puntoA.getX();
-		float cordenadaYPuntoB = PuntoB.getY();
-		float cordenadaXPuntoB = PuntoB.getX();
+		float cordenadaYPuntoB = puntoB.getY();
+		float cordenadaXPuntoB = puntoB.getX();
 		
 		
 		double catetoA= Math.pow(cordenadaXPuntoA-cordenadaXPuntoB,2);
