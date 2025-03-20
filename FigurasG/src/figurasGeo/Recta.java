@@ -49,7 +49,10 @@ public class Recta {
 	}
 
 	public static void main(String[] args) {
-		Recta r = new Recta(77f,65f);
+
+		Punto pA = new Punto(5, 6);
+		Punto pB = new Punto(8, 6);
+		Recta r = new Recta(pA, pB);
 		double a = r.getSegmento();
 		System.out.println(r.toString());
 
